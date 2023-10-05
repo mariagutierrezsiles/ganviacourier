@@ -1,0 +1,5 @@
+#Desincronizamos las siguientes carpetas del repositorio
+.angular/
+.github/
+e2e/
+node_modules/

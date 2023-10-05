@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="/"><img class="logoHome" src="./assets/img/LOGO GRANVIA-v5-1.png" alt="Gran Via Courier" /></a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <a class="nav-link enlaceNavbar" rel="tooltip" title="Acceso Extranet" data-placement="bottom" href="http://extranet.granviacourier.com" target="_blank">Acceso Extranet</a>
+                </li>
+                <li>
+                    <a class="nav-link enlaceNavbar" rel="tooltip" title="Regístrate gratis" data-placement="bottom" routerLink="/registro">Regístrate gratis</a>
+                </li>
+                <li>
+                    <a class="nav-link enlaceNavbar" rel="tooltip" title="Solicita una reunión" data-placement="bottom" routerLink="/reunion">Solicita una reunión</a>
+                </li>
+                <li>
+                    <a class="nav-link enlaceNavbar" rel="tooltip" title="Ponte en contacto" data-placement="bottom" routerLink="/contacto">Ponte en contacto</a>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-sm btn-round azulSolicitaNvar" onclick="window.open('https://trak.extranet.granviacourier.com/', '_blank')">Seguimiento de envíos</button>
+                </li>
+                <li>
+                    <a href="tel:+34934243333" class="nav-link enlaceNavbar" rel="tooltip" title="Ponte en contacto" data-placement="bottom" aria-label="Llámanos al +34 93 424 33 33">
+                        <i class="fas fa-phone-alt"></i> +34 93 424 33 33
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>                   
+</nav>

@@ -1,0 +1,92 @@
+.homeTitle{
+    color: #3a3a3a;
+    font-weight: 200%;
+}
+
+.azul{
+    color: #00aeff;
+    font-size: xx-large;
+}
+
+.azulRegistrate{
+    background-color: #00aeff;
+    color: #ffffff;
+    border: none;
+}
+
+.azulSolicita{
+    background-color: #00aeff;
+    color: #ffffff;
+    border: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .tituloHome {
+      margin-top: 60%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .tituloHome {
+      margin-top: 300%;
+    }
+  }
+
+.strongBold {
+    font-weight: 800;
+    color: #00aeff;
+    font-size: 75px;
+}
+
+.tituloHome{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Esto añadirá una sombra suave al texto */
+
+}
+
+/* Asegura que no hay margen ni relleno por defecto en el cuerpo */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Fondo azul neutro que ocupa toda la pantalla */
+.blue-background {
+    background-color: #4a90e2; /* Este es un color azul neutro, pero puedes ajustarlo según tus necesidades */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido del div */
+    justify-content: center; /* Centra horizontalmente el contenido del div */
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px; /* puedes cambiarlo según tus necesidades */
+    margin: 0 auto; /* Centra el row horizontalmente */
+}
+
+/* Estilo para los otros clases que proporcionaste */
+.azul-titulo {
+    color: #ffffff; /* color blanco para el título */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Esto añadirá una sombra suave al texto */
+    font-size: 65px;
+
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.8); /* color blanco con una opacidad del 80% para la descripción */
+}
+
+/* Incrementando el peso de la fuente, el tamaño y añadiendo una sombra al texto dentro del elemento <strong> */
+strong {
+  font-weight: 900; /* Esto hará que la fuente sea más pesada */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Esto añadirá una sombra suave al texto */
+}
+
+.blue-background .row, .blue-background .col-md-8 {
+    margin: 0;
+    padding: 0;
+}
